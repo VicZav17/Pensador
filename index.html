@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Graduación El Pensador Mexicano</title>
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./indexInicio.css" />
+    <link rel="stylesheet" href="./cuentaRegresiva.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <!-- <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div> -->
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" style="margin: 0 60px" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin: 0 60px" href="#about"
+                >Galería</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin: 0 60px" href="#cuentaReg"
+                >Faltan</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin: 0 60px" href="#ubicacion"
+                >Ubicación</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="bg-white text-white text-center">
+      <img
+        src="imgs/inicioDesktop.gif"
+        class="d-none d-md-block img-fluid"
+        alt="Desktop Image"
+        style="width: 100%; height: 100%"
+      />
+      <img
+        src="imgs/inicioMoviles.gif"
+        class="mobile-image d-md-none img-fluid"
+        alt="Mobile Image"
+        style="width: 100%; height: 100%"
+      />
+
+      <!-- <img src="imgs/download.gif" class="d-block w-100" alt="..."> -->
+    </section>
+
+    <section id="about" class="text-center" style="background-color: white">
+      <h1
+        style="
+          font-family: 'Great Vibes';
+          color: black;
+          padding-top: 50px;
+          font-size: 4em;
+        "
+      >
+        ¡Felicidades Graduados!
+      </h1>
+      <div class="row" style="padding-top: 20px">
+        <div
+          class="col-md-6 col-12 text-center"
+          style="font-family: Great Vibes; color: darkslategrey; font-size: 3em"
+        >
+          <p>
+            Estamos emocionados de invitarte a la celebración de la graduación
+            de nuestros queridos estudiantes de preescolar, primaria y
+            secundaria.
+          </p>
+          <p>
+            Ven y acompáñanos a reconocer sus logros y a desearles lo mejor en
+            esta nueva etapa de sus vidas.
+          </p>
+        </div>
+        <div class="col-md-6 col-12">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="imgs/galery/graduados.jpeg"
+                  class="d-block img-fluid"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="imgs/galery/primaria.jpeg"
+                  class="d-block img-fluid"
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/galery/kinder.jpeg" class="d-block img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/galery/secu.jpeg" class="d-block img-fluid" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="padding-top: 20px">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imgs/galery/1.jpeg" class="img-fluid" />
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/galery/2.jpeg" class="img-fluid" />
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/galery/3.jpeg" class="img-fluid" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="cuentaReg" class="text-white text-center">
+      <div style="margin: 40px 0">
+        <div id="cuentaRegresiva"></div>
+      </div>
+    </section>
+
+    <section
+      id="detalles"
+      class="text-white text-center"
+      style="background-color: azure"
+    >
+      <div>
+        <h1 style="font-family: 'Great Vibes'; color: black; padding-top: 50px">
+          Detalles del Evento:
+        </h1>
+        <div style="color: black">
+          <p>
+            📅 <strong>Fecha:</strong> 26 de Junio del 2024<br />
+            🕒 <strong>Hora:</strong> Misa a las 3:30 PM<br />
+            📍 <strong>Lugar:</strong> Iglesia de la Santa Cruz, El Ranchito de
+            los Guzmán
+          </p>
+
+          <h2>Ceremonia:</h2>
+          <p>
+            🕕 <strong>Hora:</strong> 6:00 PM<br />
+            📍 <strong>Lugar:</strong> Primaria "El Pensador Mexicano"
+          </p>
+
+          <p>
+            No te pierdas esta ocasión especial llena de alegría, orgullo y
+            muchas sorpresas. ¡Te esperamos con los brazos abiertos!
+          </p>
+
+          <h1>¡Felicidades Graduados!</h1>
+
+          <p>
+            <em>Nota:</em> No olvides confirmar tu asistencia.
+          </p>
+
+          <p>¡Nos vemos pronto!</p>
+        </div>
+        <div class="container-map" style="position: relative; padding-top: 5px">
+          <iframe
+            class="map-responsive"
+            style="position: relative; width: 60%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2195.1097470594427!2d-100.69662992633873!3d22.288600221068762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868001ed37b1802b%3A0x145d904d34fd5a4a!2sIglesia%20de%20La%20Santa%20Cruz%20Ranchito%20de%20Los%20Guzm%C3%A1n!5e0!3m2!1ses!2smx!4v1718130918064!5m2!1ses!2smx"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./cuentaRegresiva.js"></script>
+  </body>
+</html>

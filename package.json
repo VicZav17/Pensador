@@ -1,0 +1,16 @@
+{
+  "name": "pensador",
+  "version": "1.0.0",
+  "description": "Graduación El Pensador Mexicano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vmzavala",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/great-vibes": "^5.0.21",
+    "@fontsource/playfair-display": "^5.0.24",
+    "bootstrap": "^5.3.3"
+  }
+}
